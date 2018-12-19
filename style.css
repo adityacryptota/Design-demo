@@ -1,0 +1,119 @@
+body {
+    letter-spacing: .1rem;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+
+p {
+    line-height: 1.3;
+}
+
+.brand {
+    color: white;
+    transition: all .2s;
+}
+
+.brand:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.hero-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("headphone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-2 {
+    background-color: #20716a;
+    position: relative;
+}
+
+.btn {
+    color: white;
+    transition: all .2s;
+    background-color: #20716a;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #20716a;
+    transform: scale(1.1);
+    border: 2px solid #20716a;
+}
+
+.small-text {
+    font-size: 1.2rem;
+    
+}
+
+.medium-text {
+    font-size: 1.7rem;
+   
+}
+
+.hero {
+    height: 40rem;
+}
+
+#features {
+    padding: 5rem;
+}
+
+i {
+    transition: all 0.2s;
+}
+
+i:hover {
+    transform: scale(2);
+}
+
+#product {
+    padding: 4rem;
+}
+
+footer {
+    height: 20rem;
+    background-color: #20716a;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+   transition: all 0.2s;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+     border-width: 0 0 4px 0;
+     border-style: solid;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-2 h1 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        height: 30rem;
+    }
+
+    .hero-2 {
+        padding: 0;
+    }
+
+    #product {
+        padding: 0;
+    }
+
+    #small {
+        font-size: 2rem;
+    }
+}
